@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+
+}
+
+.pesquisarRaca {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 40px;
+    margin-left:30px;
+}
+
+#raca{
+    width: 900px;
+}
+
+#pesquisar{
+    width: 80px;
+    background-color: salmon;
+    color: black;
+    border: 1.5px solid black;
+}
+
+
+
+
+
+#imagem-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 4px;
+}
+
+#imagem-container img{
+    height: 300px;
+    flex-grow: 1;
+    border: 5px solid black;
+    box-shadow: 3px 2px 0px 0px rgba(0, 0, 0, 0.342);
+}
